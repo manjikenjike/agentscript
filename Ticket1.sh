@@ -9,7 +9,7 @@
 
 for i in $(find /var/log -iname "*.log" -mtime -14);
 do
-chmod -x $i;
+chmod +x $i;
 
 done
 
